@@ -119,6 +119,10 @@
             </tr>
         </tbody>
     </table>
-
+    <div style="padding:10px; background:#f5f5f5; border-bottom:1px solid #ddd;">
+        <span th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss')}"></span>
+        <span> | 학번: 2291127</span>
+        <span> | 성명: 안태환</span>
+    </div>
 </body>
 </html>
